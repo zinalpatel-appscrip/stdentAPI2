@@ -1,0 +1,57 @@
+{
+    "admin": {
+        "message": "Data Inserted!"
+    },
+    "login": {
+        "200": {
+            "message": "Logged In!!!"
+        },
+        "401": {
+            "message": "Invalid Credentials!"
+        }
+    },
+    "student": {
+       "insert" : {
+            "201": {
+                "message": "Student Created!!"
+            }
+        },
+        "update": {
+            "200": {
+                "message": "Student Data Updated!!"
+            },
+            "404": {
+                "message": "requested student not found!!"
+            }
+        },
+        "getAll": {
+            "200": {
+                "message": "Data Found!!"
+            }
+        },
+        "getSpecific": {
+            "200": {
+                "message": "Data Found!!"
+            },
+            "404": {
+                "message": "This student is not exsists"
+            }
+        },
+        "delete": {
+            "200":{
+                "message":"Data deleted successfully"
+            },
+            "404":{
+                "message": "No data found"
+            },
+            "500": {
+                "message": "Internal Server Error"
+            }
+        }
+    },
+    "logout": {
+        "200": {
+            "message": "Logged Out!!"
+        }
+    }
+}

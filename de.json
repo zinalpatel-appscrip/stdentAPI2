@@ -1,0 +1,57 @@
+{
+    "admin": {
+        "message": "Daten eingefügt!"
+    },
+    "login": {
+        "200": {
+            "message": "Eingeloggt!!!"
+        },
+        "401": {
+            "message": "Ungültige Zugangsdaten!"
+        }
+    },
+    "student": {
+        "insert": {
+            "201": {
+                "message": "Schüler erstellt!!"
+            }
+        },
+        "update": {
+            "200": {
+                "message": "Schülerdaten aktualisiert!!"
+            },
+            "404": {
+                "message": "gesuchter Student nicht gefunden!!"
+            }
+        },
+        "getAll": {
+            "200": {
+                "message": "Daten gefunden!!"
+            }
+        },
+        "getSpecific": {
+            "200": {
+                "message": "Daten gefunden!!"
+            },
+            "404": {
+                "message": "Dieser Schüler existiert nicht"
+            }
+        },
+        "delete": {
+            "200": {
+                "message": "Daten erfolgreich gelöscht"
+            },
+            "404": {
+                "message": "Keine Daten gefunden"
+            },
+            "500": {
+                "message": "interner Serverfehler"
+            }
+        }
+    },
+    "logout": {
+        "200": {
+            "message": "Abgemeldet!!"
+        }
+    }
+}
